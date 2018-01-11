@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-  compileSdkVersion 25
-  buildToolsVersion "25.0.2"
+  compileSdkVersion 27
+  buildToolsVersion "27.0.3"
 
   defaultConfig {
     applicationId "saulmm.coordinatorexamples"
     minSdkVersion 21
-    targetSdkVersion 25
+    targetSdkVersion 27
     versionCode 1
     versionName "1.0"
   }
@@ -19,7 +19,7 @@ android {
   }
 }
 
-def SUPPORT = "25.3.0"
+def SUPPORT = "27.0.2"
 
 dependencies {
   compile fileTree(dir: 'libs', include: ['*.jar'])
